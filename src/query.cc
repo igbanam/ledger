@@ -217,7 +217,6 @@ test_ident:
       return token_t(token_t::TOK_EXPR);
     }
     else
-      ident.push_back(*arg_i);
       return token_t(token_t::TERM, ident);
   }
   }
