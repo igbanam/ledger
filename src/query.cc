@@ -36,6 +36,7 @@
 
 namespace ledger {
 
+// TODO: Extend this to handle all characters which define enclosures
 bool query_t::lexer_t::unbalanced_braces(string str) {
   int balance = 0;
   for (char& c : str) {
